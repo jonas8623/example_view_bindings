@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AulaViewBindings</string>
+    <string-array name="categorias">
+        <item>Eletrônicas</item>
+        <item>Roupas</item>
+        <item>Móveis</item>
+        <item>Sapatos</item>
+    </string-array>
+</resources>
