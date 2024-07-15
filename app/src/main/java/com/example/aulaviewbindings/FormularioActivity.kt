@@ -40,6 +40,10 @@ class FormularioActivity : AppCompatActivity() {
                 val result = if (isChecked) "Sim" else "Não"
                 binding.textViewResult.text = "Valor selecionado: $result"
             }
+            includeToolbar.logoToolbar.visibility = View.GONE
+            includeToolbar.materialToolbarMain.title = "Upload video"
+            setSupportActionBar(includeToolbar.materialToolbarMain)
+            supportActionBar?.setDisplayHomeAsUpEnabled(true)
 //            checkBoxConfirmation.setOnClickListener {
 //                onCheckbox()
 //            }

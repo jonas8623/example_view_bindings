@@ -12,6 +12,10 @@
         android:theme="@style/Theme.AulaViewBindings"
         tools:targetApi="31">
         <activity
+            android:name=".FormularioActivity"
+            android:parentActivityName=".ToolbarActionbarActivity"
+            android:exported="false" />
+        <activity
             android:name=".FloatingActionButtonActivity"
             android:exported="false" />
         <activity
@@ -24,7 +28,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".FormularioActivity"
+            android:name=".ToolbarActionbarActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
